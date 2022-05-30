@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Ideas-Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple dapp where users can create ideas and vote on them.
 
 ## Available Scripts
 
