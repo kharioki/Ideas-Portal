@@ -14,6 +14,7 @@ export const getAllWaves = async (contractAddress, contractABI) => {
       for (let i = 0; i < _wavesLength; i++) {
         let _wave = new Promise(async (resolve, reject) => {
           const w = await wavePortalContract.getWave(i);
+          console.log(w)
           resolve({
             index: i,
             owner: w[0],
